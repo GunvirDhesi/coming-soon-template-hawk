@@ -1,0 +1,45 @@
+body
+{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.container
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg
+{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(45deg, #86A8E7, #91EAE4);
+  z-index: -10;
+}
+.welcome
+{
+  text-align: center;
+  background-color: rgba(0,0,0, 0.3);
+  padding: 4%;
+  border-radius: 40px;
+}
+h1
+{
+  font-size: 3rem;
+}
+h3
+{
+  font-size: 2rem;
+}
+.img
+{
+  position: absolute;
+  z-index: -1;
+  bottom:0;
+}
